@@ -1,0 +1,47 @@
+* {
+    margin: 2rem;
+    background-color: hsl(30, 38%, 92%);
+}
+
+body {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 30rem;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    width: 30rem;
+    align-self: stretch;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    border-radius: 30%;
+    width: 75%;
+}
+
+@media (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+  }
